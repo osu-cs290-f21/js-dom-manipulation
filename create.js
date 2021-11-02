@@ -37,3 +37,6 @@ function insertNewPhotoCard(photoUrl, caption) {
 }
 
 insertNewPhotoCard("http://placekitten.com/480/480", "Luke as a kitty")
+
+var photoCards = document.getElementsByClassName('photo-card')
+photoCards[0].remove()
